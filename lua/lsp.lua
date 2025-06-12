@@ -49,7 +49,10 @@ vim.lsp.config("*", {
 
 vim.lsp.enable({
 	"luals",
+	"cssls",
 	"tsls",
+	"emmetls",
+	"tailwindcssls",
 })
 
 vim.diagnostic.config({
@@ -80,7 +83,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	desc = "LSP actions",
 	callback = function(event)
 		local opts = { buffer = event.buf }
-		vim.keymap.set("n", "K", "<cmd>lua vim.lsp.buf.hover()<cr>", opts)
 		vim.keymap.set("n", "gd", "<cmd>lua vim.lsp.buf.definition()<cr>", opts)
 		vim.keymap.set("n", "gl", "<cmd>lua vim.diagnostic.open_float()<cr>", opts)
 	end,
