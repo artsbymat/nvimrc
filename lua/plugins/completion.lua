@@ -33,11 +33,12 @@ return {
 					selection = { preselect = true, auto_insert = false },
 				},
 				menu = {
+					border = "single",
 					draw = {
 						treesitter = { "lsp" },
 						columns = {
-							{ "kind_icon", gap = 1 },
 							{ "label", "label_description", gap = 1 },
+							{ "kind_icon", gap = 1 },
 							{ "source_name", gap = 1 },
 						},
 						components = {
