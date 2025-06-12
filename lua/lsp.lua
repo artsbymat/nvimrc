@@ -53,6 +53,7 @@ vim.lsp.enable({
 	"tsls",
 	"emmetls",
 	"tailwindcssls",
+	"bashls",
 })
 
 vim.diagnostic.config({
