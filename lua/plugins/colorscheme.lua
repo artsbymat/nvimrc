@@ -13,6 +13,9 @@ return {
 				LineNr = {
 					fg = "#828c9e",
 				},
+				Pmenu = {
+					bg = "NONE",
+				},
 			},
 		})
 	end,
