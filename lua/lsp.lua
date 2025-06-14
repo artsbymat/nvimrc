@@ -46,6 +46,9 @@ vim.lsp.config("*", {
 		end
 
 		require("inlay-hints").on_attach(client, bufnr)
+
+		-- Disable inlay hints by default
+		vim.lsp.inlay_hint.enable(false)
 	end,
 })
 
