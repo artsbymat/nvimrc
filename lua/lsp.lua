@@ -44,6 +44,8 @@ vim.lsp.config("*", {
 				vim.notify(client.name:upper() .. " already stopped")
 			end, { nargs = 0 })
 		end
+
+		require("inlay-hints").on_attach(client, bufnr)
 	end,
 })
 
