@@ -33,7 +33,6 @@ vim.lsp.config("*", {
 				lsp.buf.hover({
 					silent = true,
 					border = "single",
-					width = math.floor(vim.o.columns / 2),
 				})
 			end, { buffer = true, desc = "LSP: Show Documentation" })
 		end
