@@ -25,5 +25,9 @@ return {
 				require("fzf-lua").grep()
 			end,
 		},
+		{
+			"<leader>ft",
+			":TodoFzfLua<CR>",
+		},
 	},
 }
