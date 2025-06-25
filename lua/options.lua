@@ -70,3 +70,6 @@ vim.g.editorconfig = true
 
 -- Hide command input
 vim.opt.cmdheight = 0
+
+-- Show border around the current window
+vim.opt.laststatus = 3
