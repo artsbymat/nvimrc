@@ -73,3 +73,6 @@ vim.opt.cmdheight = 0
 
 -- Show border around the current window
 vim.opt.laststatus = 3
+
+-- Disable swap files
+vim.opt.swapfile = false
