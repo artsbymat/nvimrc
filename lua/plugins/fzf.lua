@@ -11,6 +11,14 @@ return {
 		files = {
 			fd_opts = [[--exclude *.mp4 --exclude *.avi --exclude *.mkv --exclude *.webm --exclude *.jpeg --exclude *.png --exclude *.jpg]],
 		},
+		previewers = {
+			builtin = {
+				syntax = true,
+				syntax_limit_l = 100,
+				syntax_limit_b = 1024 * 1024,
+				limit_b = 1024 * 1024 * 10,
+			},
+		},
 	},
 	keys = {
 		{
