@@ -58,6 +58,8 @@ vim.lsp.enable({
 	"emmetls",
 	"tailwindcssls",
 	"bashls",
+	"astro",
+	"gopls",
 })
 
 vim.diagnostic.config({

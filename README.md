@@ -19,7 +19,7 @@ Exit terminal and run:
 ```shell
 $ nvm install --lts
 $ nvm use --lts
-$ npm install -g typescript typescript-language-server prettier vscode-langservers-extracted @olrtg/emmet-language-server @tailwindcss/language-server eslint_d @fsouza/prettierd bash-language-server
+$ npm install -g typescript typescript-language-server prettier vscode-langservers-extracted @olrtg/emmet-language-server @tailwindcss/language-server eslint_d @fsouza/prettierd bash-language-server @astrojs/language-server
 $ git clone https://github.com/artsbymat/nvimrc.git ~/.config/nvim
 $ nvim
 ```

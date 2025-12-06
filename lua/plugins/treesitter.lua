@@ -18,7 +18,10 @@ return {
 			"javascript",
 			"jsdoc",
 			"css",
+			"scss",
 			"typescript",
+			"astro",
+			"go",
 		},
 		auto_install = true,
 		highlight = {
