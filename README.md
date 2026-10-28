@@ -5,7 +5,7 @@ A minimalist yet powerful Neovim config for efficient coding.
 ## Installation
 
 ```shell
-$ sudo pacman -S neovim tree-sitter wl-clipboard ripgrep fd stylua lua-language-server nvm trash-cli shfmt ttf-jetbrains-mono-nerd wakatime
+$ sudo pacman -S neovim tree-sitter-cli wl-clipboard ripgrep fd stylua lua-language-server nvm trash-cli shfmt ttf-jetbrains-mono-nerd wakatime
 ```
 
 Add the following to your `~/.bashrc` or any shell config file:

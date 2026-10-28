@@ -43,11 +43,6 @@ vim.lsp.config("*", {
 				vim.notify(client.name:upper() .. " already stopped")
 			end, { nargs = 0 })
 		end
-
-		require("inlay-hints").on_attach(client, bufnr)
-
-		-- Disable inlay hints by default
-		vim.lsp.inlay_hint.enable(false)
 	end,
 })
 
